@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="stylesheet" href="base.css">
+  <script src="script.js" defer></script>
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="container" id="container-plus">
+    <header class="header">
+      <div class="header-social">
+        <a href="#" class="social-btn toggle" aria-label="Toggle Theme Mode">
+          <img class="theme-icon" src="images/social-btn-toggle-light.svg" alt="Toggle">
+        </a>
+        <a href="https://www.linkedin.com/in/rodrigo-santos-enable/" target="_blank" class="social-btn">
+          <img class="theme-icon" src="images/social-btn-linkedin-light.svg"  alt="Linkedin">
+        </a>
+        <a href="https://github.com/RodrigoEnable" target="_blank" class="social-btn">
+          <img class="theme-icon" src="images/social-btn-github-light.svg" alt="Github">
+        </a>
+        <a href="mailto:rodrigosantos9000@gmail.com" target="_blank" class="social-btn">
+          <img class="theme-icon" src="images/social-btn-email-light.svg" alt="Email">
+        </a>
+      </div>
+      <div class="header-wrapper">
+        <div class="header-top">
+          <div class="header-title">
+            <h1>Hi, I'm Rodrigo</h1>
+            <hr />
+          </div>
+          <div class="header-btn">
+            <a href="#" class="toggle">
+              <img class="theme-icon" src="images/social-btn-toggle-light.svg" alt="Toggle">
+            </a>
+          </div>
+        </div>
+        <div class="header-image">
+          <img class="header-img" src="images/header-image.png" alt="Header" />
+        </div>
+        <div class="header-content">
+          <div class="header-text">
+            Sou Front-End Developer e busco criar experiências digitais agradáveis por meio dos meus projetos.
+          </div>
+          <div class="header-lang">
+            <a onclick="toggleLanguage('english')" href="#">English</a>
+            <a onclick="toggleLanguage('portuguese')" href="#">Portuguese</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="technologies">
+        <div class="technologies-image">
+          <img class="technologies-img" src="images/technologies-image.png" alt="Technologies" />
+        </div>
+        <div class="technologies-content">
+            <div class="technologies-title">
+              <h1>Technologies</h1>
+            </div>
+            <div class="technologies-text">
+              Todo Dev tem a sua caixa de ferramentas virtual. Dentro da minha caixa tenho HTML, CSS, JavaScript, TypeScript, React, React Native (Expo) e NextJS como ferramentas principais.
+            </div>
+            <div class="technologies-list">
+                <div class="tech">HTML</div>
+                <div class="tech fill">CSS</div>
+                <div class="tech">JS</div>
+                <div class="tech fill">TS</div>
+                <div class="tech">React</div>
+                <div class="tech fill">RN</div>
+                <div class="tech">NextJS</div>
+          </div>
+        </div>
+      </section>
+      <section class="works">
+        <div class="works-image">
+          <img class="works-img" src="images/works-image.png" alt="Works">
+        </div>
+        <div class="works-content">
+          <div class="works-title">
+            <h1>Recent Works</h1>
+          </div>
+          <div class="works-projects">
+            <div class="works-text" id="first">
+              Tenho trabalhado em um projeto pessoal, um jogo de ficção interativa em React Native. Esse jogo me levou a criar um site responsivo. Escrito com TypeScript, fiz uso do framework NextJS e o banco de dados MongoDB.
+            </div>
+            <div class="wrapper-image" id="first">
+              <img class="wrapper-img" src="images/works-r-banner.png" alt="Website Project">
+            </div>
+            <a href="https://r-the-game.vercel.app/" class="project" id="first">View Website</a>
+            <div class="works-text" id="second">
+              Desenvolvi um bot para o aplicativo Discord construído com Node e a biblioteca discord.js. Utilizei TypeScript no projeto.
+            </div>
+            <div class="wrapper-image" id="second">
+              <img class="wrapper-img" src="images/works-bot-banner.png" alt="Bot Discord Project">
+            </div>
+            <a href="https://github.com/RodrigoEnable/birthday-discord-bot-beta" class="project" target="_blank" id="second">Source Code</a>
+            <div class="works-text" id="third">
+              Esse portfólio também é um projeto recente, feito com HTML, CSS e JavaScript. Layout responsivo desenvolvido com a técnica Mobile First.
+            </div>
+            <div class="wrapper-image" id="third">
+              <img class="wrapper-img" src="images/works-mock-banner.png" alt="Porfolio Project">
+            </div>
+            <a href="https://github.com/RodrigoEnable/my-portolio" target="_blank" class="project" id="third">Source Code</a>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="wrapper-icon">
+          <a href="https://www.linkedin.com/in/rodrigo-santos-enable/" target="_blank" class="social-btn">
+            <img src="images/social-btn-linkedin-dark.svg" alt="Linkedin">
+          </a>
+          <a href="https://github.com/RodrigoEnable" target="_blank" class="social-btn">
+            <img src="images/social-btn-github-dark.svg" alt="Github">
+          </a>
+          <a href="mailto:rodrigosantos9000@gmail.com" target="_blank" class="social-btn">
+            <img src="images/social-btn-email-dark.svg" alt="Email">
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
