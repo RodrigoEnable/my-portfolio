@@ -37,7 +37,6 @@ window.addEventListener("DOMContentLoaded", function () {
     entries,
     observerEvent
   ) {
-    console.log(entries);
     entries.forEach((entry) => {
       if (!entry.isIntersecting) {
         return;

@@ -21,7 +21,7 @@
   --clr-yellow1: rgba(255, 253, 245, 100%);
   --clr-yellow2: rgba(232, 214, 169, 100%);
   --clr-yellow3: rgba(187, 158, 75, 100%);
-  --trs-delay: 0.75s;
+  /* --trs-delay: 0.3s; */
 }
 
 .dark-mode:root {
@@ -70,14 +70,6 @@ body,
 .container {
   height: 100vh;
 }
-
-/* .light-mode {
-  background: var(--clr-white);
-} */
-
-/* .dark-mode {
-  background: var(--clr-green1);
-} */
 
 /* MOBO FIRST */
 
@@ -244,8 +236,6 @@ body,
 .technologies-content {
   padding: 1.25rem;
   opacity: 0;
-  /* transform: translateX(-10%); */
-  /* transition: all 1s ease-in-out; */
 }
 
 .active-slide-left {
@@ -279,11 +269,6 @@ body,
     opacity: 1;
   }
 }
-
-/* .active {
-  opacity: 1;
-  transform: translateX(0);
-} */
 
 .technologies-text {
   color: var(--clr-primary);
@@ -458,6 +443,7 @@ body,
     align-items: center;
     flex-direction: column;
     padding: 0 1.5625rem;
+    transition: var(--trs-delay);
   }
 
   .header-btn {
