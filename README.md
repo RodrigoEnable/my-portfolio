@@ -1,9 +1,9 @@
 ![Logo](https://github.com/RodrigoEnable/my-portfolio/blob/main/portfolio-logo.svg)
 
-## Rodrigo
+## Hi, I'm Rodrigo!
 
-► Meu portfólio  
-► My portfolio
+► Código fonte do meu portfólio
+► Source code of my portfolio
 
 ## Predominant programming language
 
