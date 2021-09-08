@@ -2,7 +2,7 @@
 
 ## Hi, I'm Rodrigo!
 
-► Código fonte do meu portfólio
+► Código fonte do meu portfólio  
 ► Source code of my portfolio
 
 ## Predominant programming language
